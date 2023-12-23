@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #0c2236;
+      color: #fff;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+    }
+
+    #introduction {
+      text-align: center;
+      margin-bottom: 30px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    #skills,
+    #contact {
+      margin-bottom: 50px;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 5;
+      }
+      to {
+        opacity: 5;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    #about,
+    #skills,
+    #contact {
+      background-color: #1b4b72;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(192, 78, 78, 0.1);
+    }
+
+    #skills ul,
+    #contact p {
+      font-size: 18px;
+      color: #fff;
+    }
+
+    #about p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  </style>
+  <title>Railey Andrei S. Borja - Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Rai</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#introduction">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-success ml-2" data-toggle="modal" data-target="#exampleModal">
+                Display Button
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+  <div class="container mt-5">
+
+    <section id="introduction">
+      <h1 class="text-primary">Railey Andrei S. Borja</h1>
+      <p class="lead">Welcome to my creative portfolio! I am a passionate web developer with expertise in front-end technologies.</p>
+      <img src="./Snapchat-379732519.jpg" alt="Your Image" class="img-fluid rectangle mt-5" style="width: 200px;">
+    </section>
+
+    <section id="about">
+      <h2 class="text-primary">About Me</h2>
+      <p>
+        I am a results-driven web developer with a strong background in creating dynamic and responsive websites. My journey in web development
+        began with a deep fascination for technology, and I have since honed my skills in HTML, CSS, JavaScript, and various web
+        development frameworks. I am committed to delivering high-quality solutions and continuously expanding my knowledge in the ever-evolving
+        field of web development.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2 class="text-primary">Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+        <li>Responsive Web Design</li>
+        <li>Web Development</li>
+        <li>Python</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Git</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="text-primary">Contact</h2>
+      <p>Email: perzelsulapas</p>
+      <p>LinkedIn: linkedin.com/in/dandan</p>
+      <p>GitHub: https://github.com/Chaeyoungie21/Chaeyoungie21.git</p>
+    </section>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2
+</body>
+</html>
